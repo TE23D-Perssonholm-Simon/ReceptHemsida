@@ -49,3 +49,23 @@ article>img{
     height: 100%;
     width: 100%;
 }
+article>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+article>ul>*{
+    margin-top: 5%;
+
+}
+article>ul>li>button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    
+}
+article>ul>li>button:hover{
+    background-color: beige;
+    
+}
