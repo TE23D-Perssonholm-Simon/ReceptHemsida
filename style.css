@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color: rgb(216, 192, 165);
     padding: 1%;
 }
 header{
@@ -67,5 +67,14 @@ article>ul>li>button{
 }
 article>ul>li>button:hover{
     background-color: beige;
+    border-radius: 5px;
     
+}
+button{
+    font-size: large;
+    padding: 2%;
+    text-align: left;
+}
+p{
+    font-size: large;
 }
