@@ -29,9 +29,11 @@ main{
     
 
 }
+
 article{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 90%;
     width: 90%;
@@ -41,4 +43,8 @@ article{
 }
 article>p{
     width: 80%;
+}
+article>img{
+    height: 97%;
+    width: 95%;
 }
