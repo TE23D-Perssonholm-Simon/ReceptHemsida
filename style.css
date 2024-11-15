@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(216, 192, 165);
+    background-color: rgb(236, 208, 176);
     padding: 1%;
 }
 header{
@@ -46,8 +46,8 @@ article>p{
     width: 80%;
 }
 article>img{
-    height: 100%;
     width: 100%;
+    height: auto;
 }
 article>ul{
     display: flex;
