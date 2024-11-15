@@ -1,0 +1,44 @@
+body{
+    background-color: burlywood;
+    padding: 1%;
+}
+header{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr;
+    gap: 2%;
+    
+}
+header>*{
+    display: flex;
+    margin: 0%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5%;
+}
+article>p{
+    width: 80%;
+}
