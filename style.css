@@ -33,18 +33,18 @@ main{
 article{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 90%;
-    width: 90%;
+    padding: 4%;
     background-color: white;
     border-radius: 20px;
     margin: 5%;
+    text-align: center;
+    height: fit-content;
 }
 article>p{
     width: 80%;
 }
 article>img{
-    height: 97%;
-    width: 95%;
+    height: 100%;
+    width: 100%;
 }
