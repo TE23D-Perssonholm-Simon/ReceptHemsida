@@ -25,9 +25,9 @@ main{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    margin-top: 5%;
     box-sizing: border-box;
-    
-
 }
 
 article{
@@ -37,9 +37,10 @@ article{
     padding: 4%;
     background-color: white;
     border-radius: 20px;
-    margin: 5%;
     text-align: center;
+    width: 100%;
     height: fit-content;
+    box-sizing: border-box;
 }
 article>p{
     width: 80%;
