@@ -1,6 +1,7 @@
 body{
     background-color: rgb(236, 208, 176);
     padding: 1%;
+    
 }
 header{
     display: grid;
@@ -23,7 +24,6 @@ header>*{
 }
 main{
     display: grid;
-    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 2%;
     margin-top: 5%;
@@ -40,6 +40,7 @@ article{
     text-align: center;
     width: 100%;
     height: fit-content;
+    max-height: 100%;
     box-sizing: border-box;
 }
 article>p{
@@ -77,4 +78,10 @@ button{
 }
 p{
     font-size: large;
+}
+
+footer>img{
+    width: 100%;
+    height: auto;
+    margin-top: 7vh;
 }
