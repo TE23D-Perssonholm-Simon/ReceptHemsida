@@ -7,6 +7,16 @@ body{
     
     
 }
+
+*{
+    font-family:"Comic Neue", "Arial","Roboto";
+    font-weight:550;
+}
+
+h1{
+    font-size:600%;
+}
+
 header{
     display: grid;
     grid-template-rows: 1fr;
@@ -100,3 +110,4 @@ aside>a>img{
     width: 100%;
     height: auto;
 }
+
